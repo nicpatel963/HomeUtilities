@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        
+        .auto-style2 {
+            height: 26px;
+            width: 1340px;
+        }
+        
+        .auto-style8 {
+            height: 26px;
+            width: 555px;
+        }
+        .auto-style9 {
+            height: 26px;
+            width: 4174px;
+        }
+        .auto-style10 {
+            width: 4174px;
+        }
+        .auto-style11 {
+            width: 555px;
+        }
+        .auto-style17 {
+            width: 100%;
+            height: 64px;
+        }
+        .auto-style18 {
+            width: 92px;
+        }
+        .auto-style19 {
+            width: 114px;
+        }
+        .auto-style20 {
+            width: 117px;
+        }
+        .auto-style21 {
+            width: 131px;
+        }
+        .auto-style27 {
+            width: 122px;
+        }
+        .auto-style28 {
+            width: 104px;
+        }
+        .auto-style24 {
+            width: 108px;
+        }
+        .auto-style25 {
+            width: 121px;
+        }
+        .auto-style26 {
+            width: 110px;
+        }
+        .auto-style29 {
+            width: 126px;
+        }
+    </style>
+</head>
+<body style="height: 24px">
+    <form id="form1" runat="server">
+        <div class="auto-style5">
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style8">
+                        &nbsp;</td>
+                    <td class="auto-style9">
+    <table class="auto-style17">
+        <tr>
+            <td class="auto-style18">
+                <asp:Image ID="h" runat="server" Height="108px" ImageUrl="~/images/H.gif" Width="110px" />
+            </td>
+            <td class="auto-style19">
+                <asp:Image ID="o" runat="server" Height="84px" ImageUrl="~/images/O.gif" Width="103px" />
+            </td>
+            <td class="auto-style20">
+                <asp:Image ID="Image1" runat="server" Height="97px" ImageUrl="~/images/m.gif" Width="93px" />
+            </td>
+            <td class="auto-style21">
+                <asp:Image ID="Image2" runat="server" Height="109px" ImageUrl="~/images/e.gif" Width="105px" />
+            </td>
+            <td class="auto-style27">
+                <asp:Image ID="Image3" runat="server" Height="141px" ImageUrl="~/images/S.gif" Width="111px" />
+            </td>
+            <td class="auto-style28">
+                <asp:Image ID="Image4" runat="server" Height="109px" ImageUrl="~/images/e.gif" Width="105px" />
+            </td>
+            <td class="auto-style24">
+                <asp:Image ID="Image5" runat="server" Height="109px" ImageUrl="~/images/r.gif" Width="105px" />
+            </td>
+            <td class="auto-style25">
+                <asp:Image ID="Image6" runat="server" Height="124px" ImageUrl="~/images/v.gif" Width="99px" />
+            </td>
+            <td class="auto-style26">
+                <asp:Image ID="Image7" runat="server" Height="119px" ImageUrl="~/images/i.gif" Width="103px" />
+            </td>
+            <td class="auto-style29">
+                <asp:Image ID="Image8" runat="server" ImageUrl="~/images/c.gif" Width="121px" />
+            </td>
+            <td>
+                <asp:Image ID="Image9" runat="server" Height="109px" ImageUrl="~/images/e.gif" Width="105px" />
+            </td>
+        </tr>
+    </table>
+                    </td>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style8">
+                        &nbsp;</td>
+                    <td class="auto-style9">
+                        <asp:Button ID="ButtonHome" runat="server" BackColor="White" BorderColor="Black" OnClick="ButtonHome_Click" Text="Home" CausesValidation="False" />
+                        &nbsp;<asp:Button ID="ButtonUserlogin" runat="server" BackColor="White" BorderColor="Black" OnClick="ButtonUserlogin_Click" Text="UserLogin" CausesValidation="False" />
+                        &nbsp;&nbsp;<asp:Button ID="ButtonServiceProvider" runat="server" BackColor="White" BorderColor="Black" OnClick="ButtonServiceProvider_Click" Text="ServiceProviderLogin" CausesValidation="False" />
+                    </td>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style11" rowspan="2">
+                        <br />
+                    </td>
+                    <td class="auto-style10" rowspan="2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                </tr>
+                </table>
+        </div>
+    </form>
+</body>
+</html>
